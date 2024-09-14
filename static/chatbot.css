@@ -1,0 +1,156 @@
+#chatbot {
+  margin: 30px;
+  position: fixed;
+  height: clamp(300px, 60%, 1000px);
+  width: clamp(375px, 30%, 750px);
+  border-radius: 20px;
+  left: 65%;
+  top: 35%;
+  z-index: 3;
+  display: grid;
+  grid-template-rows: 1fr 5fr 1fr;
+  img{
+    position: absolute;
+  }
+}
+#chatbot-banner {
+  background-color: #161616d0;
+  backdrop-filter: blur(5px);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  p {
+    font-size: 2rem;
+    color: white;
+  }
+  button {
+    margin-left: auto;
+    font-size: 2.5rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    padding: 5px;
+   
+  }
+
+
+
+ 
+}
+
+
+
+#chatbot-area {
+  background-color: aliceblue;
+  backdrop-filter: blur(5px);
+  box-shadow: inset 0px 0px 20px 5px rgba(0, 0, 0, 0.258);
+  display: flex;
+  padding: 10px;
+  overflow: scroll;
+  line-height: 2;
+  flex-direction: column-reverse;
+  .message {
+    margin-top: 10px;
+    display: flex;
+    color: white;
+    font-size: 1.3rem;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 40px;
+  }
+  .bot {
+    align-self: start;
+    background-color: black;
+    /* background-color: rgb(0, 196, 7); */
+  }
+  .user {
+    background-color: rgb(0, 157, 255);
+    align-self: end;
+  }
+}
+#chatbot-input {
+  /* background-color: #1616168e; */
+  background-color: #161616e8;
+  backdrop-filter: blur(5px);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+  padding: 20px;
+  gap: 5px;
+  input {
+    border: none;
+    font-size: 1.2rem;
+    background-color: #16161600;
+    border-bottom: 1px solid white;
+    color: white;
+    outline: none;
+  }
+  button {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(10px);
+    font-size: 1.3rem;
+    border-radius: 20px;
+   
+    outline: none;
+  }
+  #send-chat:hover {
+    background-color: #1616168e;
+    color: rgb(255, 255, 255);
+    transition: all;
+  }
+}
+.hidden {
+  visibility: hidden ;
+}
+
+.bookingContainer {
+  display: flex;
+  margin-top:20px;
+  flex-direction: column;
+  justify-content: start;
+  background-color: #161616e7;
+  border-radius: 5px;
+  padding: 10px;
+}
+.booking-options {
+  display: grid;
+  font-size: 1.3rem;
+  margin: 10px 0px;
+  color: white;
+  grid-template-columns: 5fr 1fr 1fr 1fr;
+  button {
+    font-size: 1.2rem;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+  }
+  .ticket-amount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.payment-methods{
+  display: flex;
+  flex-wrap: wrap;
+  div{
+    background-color: rgb(0, 157, 255);
+    margin: 5px 10px;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+    border: 1px dotted dodgerblue;
+
+  }
+  div:hover{
+    transform: scale(1.1);
+  }
+}
+
+

@@ -1,0 +1,53 @@
+{
+  "intents": [
+    {
+      "tag": "BOOKING",
+      "patterns": [
+        "I would like to book tickets",
+        "Please book tickets",
+        "Ticket booking",
+        "Book",
+        "Booking",
+        "Order tickets"
+      ],
+      "responses": [
+        "Ok booking rn"
+      ]
+    },
+    {
+      "tag": "PRICING",
+      "patterns": [
+        "How much for a ticket",
+        "Cost ? ",
+        "Pricing ? ",
+        "Expenses"
+      ],
+      "responses": [
+        "For Children above 4 it is 10 rupees. For adults 30 rupees"
+      ]
+    },
+    {
+      "tag": "REFUND",
+      "patterns": [
+        "I bought wrong tickets",
+        "Bought too many tickets",
+        "I want a refund"
+      ],
+      "responses": [
+        "Initiating a refund..."
+      ]
+    },
+    {
+      "tag": "TICKET-ORDERING",
+      "patterns": [
+        " 1 children tickets  2 adults tickets   3 senior tickets",
+        "  7 tickets for children  5  ticket adults    4 senior ticket",
+        "  9 children  10 adult senior tickets please",
+        " I would like to order children adult tickets",
+        " 2 children 1 adult",
+        " 2 adults 2 children",
+        "2 children 2 adult 2 senior"
+      ]
+    }
+  ]
+}

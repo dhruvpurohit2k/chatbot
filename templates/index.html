@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='chatbot.css')}}">
+ 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gotham-fonts@1.0.3/css/gotham-rounded.min.css">
+</head>
+<body>
+  <div id="wrapper">
+
+
+    <!-- first page -->
+    
+    <div class="container1">
+    <div class="container">
+            
+             
+          
+    <div class="navbar" id="nav">
+ <div class="navbar-left">Travel&Tourism</div>
+ <div class="navbar-right">
+  <div class="font-nav"><a href="#nav">HOME</a></div> <div class="font-nav"><a href="#PAGE2">TRENDING MUSEUMS</a></div>
+  <div class="font-nav"><a href="#CONTACTUS">CONTACT US</a></div>
+  <div class="font-nav"><a href="#SIGN">SIGN IN FOR ADMINS</a></div>
+  </div>
+ </div>
+
+
+ <DIV class="middle-section">
+
+ 
+ <DIV class="middle-left">
+  Explore Museums 
+ </DIV>
+
+ <DIV class="middle-leftbtm">
+  Discover the hidden treasures of India with the assistance of our trusty Chatbot
+ </DIV>
+
+ <DIV class="middle-right">
+  <div class="btm-text">
+    <div class="btn" id="open-chat-box">try&nbsp;now</div>
+    </div>
+  
+ </DIV>
+
+   
+  
+ </DIV>
+</div>
+
+   <!-- second page -->
+
+   <section class="product" id="PAGE2"> 
+    <h2 class="product-category">TRENDING MUSEUMS</h2>
+
+    <button class="pre-btn"><img src="{{url_for('static',filename='IMAGES/arrow.png')}}" alt=""></button>
+    <button class="nxt-btn"><img src="{{url_for('static',filename='IMAGES/arrow.png')}}" alt=""></button>
+    
+    <div class="product-container">
+        <div class="product-card">
+            <div class="product-image">
+              
+                <img src="https://images.unsplash.com/photo-1655389819956-ac832bfb6795?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3zwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="product-thumb" alt="">
+                <button class="card-btn">see more images</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">National Museum Delhi</h2>
+                <p class="product-short-description">a short line</p>
+                
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+              
+                <img src="https://www.savaari.com/blog/wp-content/uploads/2023/07/Kolkata-India-Victoria-Memorial1.webp" class="product-thumb" alt="">
+                <button class="card-btn">see more images</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">VICTORIA MEMORIAL</h2>
+                <p class="product-short-description">a short line</p>
+               
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+              
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/e1/c5/ff/government-museum.jpg?w=1000&h=-1&s=1" class="product-thumb" alt="">
+                <button class="card-btn">see more images</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Government Museum Chennai</h2>
+                <p class="product-short-description">a short line.</p>
+                
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+              <h2 class="product-brand"></h2>
+                <img src="https://delhitourism.travel/images/places-to-visit/headers/national-rail-museum-delhi-entry-fee-timings-holidays-reviews-header.jpg" class="product-thumb" alt="">
+                <button class="card-btn">see more images</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">National Rail Museum Delhi</h2>
+                <p class="product-short-description">a short line</p>
+                
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+            
+                <img src="https://www.bdlmuseum.org/assets/bdlimages/pagesbannerimages/aboutus/about-banner-small.jpg" class="product-thumb" alt="">
+                <button class="card-btn">see more images</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Dr. Bhau Daji Lad Museum Mumbai</h2>
+                <p class="product-short-description">a short line</p>
+               
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                
+                <img src="https://cdn.shopify.com/s/files/1/1395/5787/files/DSC_2646_Left_A_large_beautifully_hand-painted_wall_hanging_dated_to_the_mid_17th_century_Image_Courtesy_Calico_Museum_-_Sarabhai_Foundation_Ahmedabad._0ec93bc0-d44c-4c7f-885b-0cf46aa05209_2048x2048.jpg?v=1671472229" class="product-thumb" alt="">
+                <button class="card-btn">see more images</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Calico Museum Ahmedabad</h2>
+                <p class="product-short-description">a short line</p>
+                
+            </div>
+        </div>
+      
+
+    </div>
+</section>
+</DIV>
+
+
+
+<!--3rd page -->
+<div id="CONTACTUS">
+  <div class="container">
+
+  <div class="contactme-heading">
+    <h1>Contact US</h1>
+   <h2>Support and Feedback Form</h2>
+  </div>
+  <div class="form-container">
+  <div class="forms">
+    <form>
+      <input type="text" placeholder="Enter your name">
+      <input type="email" placeholder="Enter your email">
+      <input type="text" placeholder="Enter your subject">
+      <textarea cols="30" rows="10" placeholder="Enter your message"></textarea>
+    </form>
+ 
+  </div>
+</div>
+  
+</div>
+</div>
+<!--chatbot--> 
+
+<div id="chatbot" class="hidden">
+    <div id="chatbot-banner" >
+        
+
+       <p> Chatbot </p>
+
+
+        <button id="chatbox-close">X</button></div>
+    <div id="chatbot-area"></div>
+    <div id="chatbot-input">
+        <input type="text" id="chatbot-text-area">
+        <button id="send-chat">SEND</button>
+    </div>
+</div>
+<script>
+    $SCRIPT_ROOT = {{request.script_root|tojson}};
+</script>
+<script type="text/javascript" src="{{url_for('static',filename='script.js')}}"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+ 
